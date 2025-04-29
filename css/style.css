@@ -1,0 +1,326 @@
+
+#intro-section {
+    align-items: center;
+    background-color: #049b4a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 10px;
+    text-align: left;
+}
+
+@media(max-width: 962px) {
+    #intro-section {
+        text-align: center;
+    }
+}
+
+#intro-greeting {
+    color: white;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+@media(max-width: 428px) {
+    #intro-greeting {
+        font-size: 40px;
+    }
+}
+
+#intro-paragraph {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#ny-sil {
+    height: 300px;
+    width: auto;
+}
+
+@media(max-width: 550px) {
+    #ny-sil {
+        height: 200px;
+        width: auto;
+    }
+}
+
+@media(max-width: 350px) {
+    #ny-sil {
+        height: 150px;
+        width: auto;
+    }
+}
+
+#about-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#about-text-div {
+    text-align: center;
+    max-width: 700px;
+    padding: 10px;
+}
+
+#about-me-title {
+    color: #049b4a;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#about-me-paragraph {
+    color: #049b4a;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#winnie {
+    border-radius: 15px;
+    height: auto;
+    width: 250px;
+}
+
+.skills-headline {
+    color: #049b4a;
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.skill-title {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.skills-paragraph {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.feature-icon {
+    color: white;
+    height: 50px;
+    width: 50px;
+    background-color: #049b4a;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 2px;
+}
+
+.feature {
+    background-color: #049b4a;
+    border-radius: 10px;
+    margin: 5px;
+    max-width: 400px;
+    padding: 10px;
+}
+
+
+#projects-title{
+    color: #049b4a;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-name {
+    color: #049b4a;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.project-description {
+    color: #049b4a;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.project-screenshot {
+    border-radius: 15px;
+    height: auto;
+    width: 300px;
+    padding: 0;
+}
+
+.first-project-screenshot {
+    border-radius: 15px;
+    height: auto;
+    width: 300px;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .project-screenshot {
+        height: 425px;
+        width: auto;
+    }
+}
+
+
+.project-div {
+    border-color: #049b4a;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    margin: 20px 10px;
+}
+
+
+@media (min-width: 768px) {
+    #second-project-div {
+        flex-direction: row-reverse;
+    }
+}
+
+
+.project-description-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 60%;
+}
+
+@media (max-width: 767px) {
+    .project-description-div {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+#contact-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    height: 400px;
+}
+
+#contact-title {
+    color:#049b4a;
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+#contact-text {
+    color:#049b4a;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.contact-btn {
+    color: white;
+    background-color:#049b4a;
+    border-width: 2px;
+    width: 150px;
+    height: 50px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 7px;
+    margin-top: 20px;
+}
+
+.contact-btn:hover {
+    border-color: #049b4a;
+    background-color: white;
+    color: #049b4a;
+}
+
+footer {
+    align-items: center;
+    background-color: #049b4a;
+    justify-content: space-between;
+    display: flex;
+    height: 200px;
+    padding: 10px 50px;
+}
+
+@media(max-width: 474px) {
+    footer {
+        justify-content: center;
+    }
+}
+
+.social-link {
+    color: white;
+    margin-right: 10px;
+}
+
+.social-link:hover {
+    color: #013318;
+    transition: ease 0.3s color;
+}
+
+.bi-instagram {
+    margin-right: 30px;
+}
+
+.copyright-div {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+@media(max-width: 474px) {
+    .copyright-div {
+        margin-right: 0;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
